@@ -1,0 +1,387 @@
+[
+    {
+        "strategy_type": "Moving Average Crossover",
+        "direction": null,
+        "asset_type": null,
+        "timeframe": null,
+        "indicators": [
+            "50-day exponential close-price MA",
+            "200-day exponential close-price MA"
+        ],
+        "entry_conditions": [],
+        "exit_conditions": [],
+        "stop_loss_percent": null,
+        "take_profit_percent": null,
+        "id": 1,
+        "source": "en",
+        "url": "https://en.wikipedia.org/wiki/Moving_average_crossover"
+    },
+    {
+        "strategy_type": "Breakout",
+        "direction": null,
+        "asset_type": null,
+        "timeframe": "daily",
+        "indicators": [],
+        "entry_conditions": [],
+        "exit_conditions": [],
+        "stop_loss_percent": null,
+        "take_profit_percent": null,
+        "id": 2,
+        "source": "priceaction",
+        "url": "https://priceaction.com/price-action-university/beginners/price-action-breakout-strategies/"
+    },
+    {
+        "strategy_type": "Breakout and Run",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Daily",
+        "indicators": [],
+        "entry_conditions": [
+            "Volume increase",
+            "Clear breakout",
+            "Closes near the high of the day"
+        ],
+        "exit_conditions": [],
+        "stop_loss_percent": null,
+        "take_profit_percent": null,
+        "id": 3,
+        "source": "tradethatswing",
+        "url": "https://tradethatswing.com/the-breakout-and-run-day-trading-strategy/?srsltid=AfmBOorgXsPMC_oEl1WsvarRJ_nRIFpi3l1Ef4Gb7qUHKZFr4qz9rX3v"
+    },
+    {
+        "strategy_type": "Moving Average Crossover",
+        "direction": null,
+        "asset_type": "Stocks",
+        "timeframe": "50-day, 200-day MAs",
+        "indicators": [
+            "Golden Cross",
+            "Death Cross"
+        ],
+        "entry_conditions": [],
+        "exit_conditions": [],
+        "stop_loss_percent": null,
+        "take_profit_percent": null,
+        "id": 4,
+        "source": "moomoo",
+        "url": "https://www.moomoo.com/us/learn/detail-how-to-use-moving-average-crossover-117042-240205024"
+    },
+    {
+        "strategy_type": "Continuation Breakout Strategy",
+        "direction": null,
+        "asset_type": null,
+        "timeframe": null,
+        "indicators": [],
+        "entry_conditions": [],
+        "exit_conditions": [],
+        "stop_loss_percent": null,
+        "take_profit_percent": null,
+        "id": 5,
+        "source": "ig",
+        "url": "https://www.ig.com/en/trading-strategies/what-is-a-breakout-trading-strategy-and-how-do-you-trade-with-it-230619"
+    },
+    {
+        "strategy_type": "Breakout",
+        "direction": "Long/Short",
+        "asset_type": null,
+        "timeframe": "Any",
+        "indicators": [
+            "Flags",
+            "Triangles",
+            "Head and Shoulders patterns",
+            "Conventional channel breakouts"
+        ],
+        "entry_conditions": [
+            "Go long when the price breaks above resistance",
+            "Go short when the price breaks below support"
+        ],
+        "exit_conditions": [
+            "Exit when the price target is reached",
+            "Adjust target if new levels have been established"
+        ],
+        "stop_loss_percent": null,
+        "take_profit_percent": null,
+        "id": 6,
+        "source": "rjofutures",
+        "url": "https://rjofutures.rjobrien.com/rjo-university/basics-of-breakout-trading"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": null,
+        "asset_type": null,
+        "timeframe": "long-term",
+        "indicators": [
+            "RSI",
+            "Bollinger Bands",
+            "Moving Averages"
+        ],
+        "entry_conditions": [],
+        "exit_conditions": [],
+        "stop_loss_percent": null,
+        "take_profit_percent": null,
+        "id": 7,
+        "source": "trendspider",
+        "url": "https://trendspider.com/learning-center/mean-reversion-trading-strategies/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": null,
+        "timeframe": null,
+        "indicators": [
+            "Bollinger Bands",
+            "Relative Strength Index (RSI)",
+            "Moving Average Convergence Divergence (MACD)"
+        ],
+        "entry_conditions": [
+            "Price falls below the mean (oversold condition)",
+            "Price rises above the mean (overbought condition)"
+        ],
+        "exit_conditions": [
+            "Price reverts to the mean",
+            "Reaches a predetermined level that indicates the reversion has occurred"
+        ],
+        "stop_loss_percent": null,
+        "take_profit_percent": null,
+        "id": 10,
+        "source": "interactivebrokers",
+        "url": "https://www.interactivebrokers.com/campus/ibkr-quant-news/mean-reversion-strategies-introduction-trading-strategies-and-more-part-i/"
+    },
+    {
+        "strategy_type": "Moving Average Crossover",
+        "direction": null,
+        "asset_type": null,
+        "timeframe": "4-12 months",
+        "indicators": [
+            "13-day EMA",
+            "48.5-day EMA"
+        ],
+        "entry_conditions": [],
+        "exit_conditions": [],
+        "stop_loss_percent": null,
+        "take_profit_percent": null,
+        "id": 11,
+        "source": "finance",
+        "url": "https://finance.yahoo.com/news/study-determines-best-moving-average-195042216.html"
+    },
+    {
+        "strategy_type": "Crossover",
+        "direction": "Trend-Following",
+        "asset_type": "Stocks, Forex, Crypto, Commodities",
+        "timeframe": "Long-term",
+        "indicators": [
+            "Moving Averages"
+        ],
+        "entry_conditions": [
+            "Price closes above the moving average"
+        ],
+        "exit_conditions": [
+            "Price closes below the moving average"
+        ],
+        "stop_loss_percent": null,
+        "take_profit_percent": null,
+        "id": 14,
+        "source": "trendspider",
+        "url": "https://trendspider.com/learning-center/moving-average-crossover-strategies/"
+    },
+    {
+        "strategy_type": "Momentum Investing",
+        "direction": null,
+        "asset_type": null,
+        "timeframe": "long-term",
+        "indicators": [],
+        "entry_conditions": [
+            {
+                "price_condition": "Rising in recent months"
+            }
+        ],
+        "exit_conditions": [
+            {
+                "price_condition": "Continues to rise for a few more months"
+            }
+        ],
+        "id": 15,
+        "source": "en",
+        "url": "https://en.wikipedia.org/wiki/Momentum_investing"
+    },
+    {
+        "strategy_type": "Moving Average Crossover",
+        "direction": null,
+        "asset_type": "Stocks",
+        "timeframe": "Day",
+        "indicators": [
+            "Simple Moving Average (SMA)",
+            "Exponential Moving Average (EMA)"
+        ],
+        "entry_conditions": [],
+        "exit_conditions": [],
+        "stop_loss_percent": null,
+        "take_profit_percent": null,
+        "id": 16,
+        "source": "blog",
+        "url": "https://blog.quantinsti.com/moving-average-trading-strategies/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": null,
+        "asset_type": "Forex",
+        "timeframe": "Intraday",
+        "indicators": [
+            "Moving Average Convergence Divergence (MACD)",
+            "Percentage Price Oscillator (PPO)"
+        ],
+        "entry_conditions": [],
+        "exit_conditions": [],
+        "stop_loss_percent": null,
+        "take_profit_percent": null,
+        "id": 17,
+        "source": "cmcmarkets",
+        "url": "https://www.cmcmarkets.com/en-gb/trading-strategy/mean-reversion"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long",
+        "asset_type": 8854920,
+        "timeframe": "1-5 years",
+        "indicators": [
+            "moving averages",
+            "RSI",
+            "ATR"
+        ],
+        "exit_conditions": [
+            "stop loss",
+            "target profit"
+        ],
+        "stop_loss_percent": null,
+        "take_profit_percent": null,
+        "id": 18,
+        "source": "en",
+        "url": "https://en.wikipedia.org/wiki/Mean_reversion_(finance)"
+    },
+    {
+        "strategy_type": "Crossover",
+        "direction": null,
+        "asset_type": "Stock",
+        "timeframe": "Intermediate-term",
+        "indicators": [
+            "Moving Average Crossover"
+        ],
+        "entry_conditions": [
+            "Shorter MA crosses above the longer MA"
+        ],
+        "exit_conditions": [
+            "Shorter MA crosses below the longer MA"
+        ],
+        "stop_loss_percent": null,
+        "take_profit_percent": null,
+        "id": 19,
+        "source": "schwab",
+        "url": "https://www.schwab.com/learn/story/understanding-simple-moving-average-crossovers"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": null,
+        "asset_type": null,
+        "timeframe": "4-hour",
+        "indicators": [
+            "Moving Averages",
+            "Bollinger Bands",
+            "RSI"
+        ],
+        "entry_conditions": [
+            "Price hits the lower band (-2 SD) and RSI drops below 30",
+            "Price hits the upper band (+2 SD) and RSI rises above 70"
+        ],
+        "exit_conditions": [
+            "Price returns to the middle band (the mean)"
+        ],
+        "stop_loss_percent": null,
+        "take_profit_percent": null,
+        "id": 20,
+        "source": "luxalgo",
+        "url": "https://www.luxalgo.com/blog/mean-reversion-strategies-for-algorithmic-trading/"
+    },
+    {
+        "strategy_type": "Momentum Trading",
+        "direction": null,
+        "asset_type": null,
+        "timeframe": "short-term",
+        "indicators": [
+            "Relative Strength Index (RSI)",
+            "Moving Averages (SMA and EMA)",
+            "Average Directional Index (ADX)"
+        ],
+        "entry_conditions": [],
+        "exit_conditions": [],
+        "stop_loss_percent": null,
+        "take_profit_percent": null,
+        "id": 21,
+        "source": "cmcmarkets",
+        "url": "https://www.cmcmarkets.com/en-gb/trading-strategy/momentum-trading"
+    },
+    {
+        "strategy_type": "RSI Trading Strategy",
+        "direction": "Neutral",
+        "asset_type": null,
+        "timeframe": "4-hour chart",
+        "indicators": [
+            "RSI"
+        ],
+        "entry_conditions": [
+            "RSI > 70: Asset is overbought; expect potential pullback",
+            "RSI < 30: Asset is oversold; expect potential rebound"
+        ],
+        "exit_conditions": [],
+        "stop_loss_percent": null,
+        "take_profit_percent": null,
+        "id": 22,
+        "source": "gtcfx",
+        "url": "https://www.gtcfx.com/blogs/rsi-trading-strategy"
+    },
+    {
+        "strategy_type": "Momentum Trading",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Daily",
+        "indicators": [],
+        "entry_conditions": [],
+        "exit_conditions": [],
+        "stop_loss_percent": null,
+        "take_profit_percent": null,
+        "id": 23,
+        "source": "quantifiedstrategies",
+        "url": "https://www.quantifiedstrategies.com/rsi-trading-strategy/"
+    },
+    {
+        "strategy_type": "Momentum Trading",
+        "direction": null,
+        "asset_type": null,
+        "timeframe": null,
+        "indicators": [],
+        "entry_conditions": [],
+        "exit_conditions": [],
+        "stop_loss_percent": null,
+        "take_profit_percent": null,
+        "id": 25,
+        "source": "tastylive",
+        "url": "https://www.tastylive.com/concepts-strategies/momentum-trading"
+    },
+    {
+        "strategy_type": "Multi-Timeframe Analysis",
+        "direction": "Upward",
+        "asset_type": null,
+        "timeframe": "H4, daily, weekly charts",
+        "indicators": [
+            "RSI",
+            "200-day simple moving average"
+        ],
+        "entry_conditions": [
+            "RSI crosses back above the 30 level from oversold/undervalued readings on the smaller chart time frame"
+        ],
+        "exit_conditions": null,
+        "stop_loss_percent": null,
+        "take_profit_percent": null,
+        "id": 26,
+        "source": "oanda",
+        "url": "https://www.oanda.com/us-en/skills-and-insights/education/trading-strategies/building-strategies/mastering-rsi-trading-strategies/"
+    }
+]
