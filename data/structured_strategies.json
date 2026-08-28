@@ -1,101 +1,1721 @@
 [
     {
-        "strategy_type": "Swing Trading",
-        "direction": null,
+        "strategy_type": "Opening Range Breakout",
+        "direction": "Long/Short",
         "asset_type": "Stocks",
-        "timeframe": "Weekly",
+        "timeframe": "Intraday",
+        "id": 1,
+        "source": "mstock",
+        "url": "https://www.mstock.com/mlearn/stock-market-courses/trading-styles/5-intraday-trading-strategies"
+    },
+    {
+        "strategy_type": "Long-Short",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
         "id": 3,
-        "source": "morpheustrading",
-        "url": "https://morpheustrading.com/blog/top-5-qualities-stock-breakouts/"
+        "source": "mymarkets",
+        "url": "https://mymarkets.com/en/mymarkets-blog/the-long-short-strategy-profit-in-every-market-situation/"
     },
     {
-        "strategy_type": null,
-        "direction": "long-term",
-        "asset_type": "stocks",
-        "timeframe": "years",
-        "id": 15,
-        "source": "nerdwallet",
-        "url": "https://www.nerdwallet.com/investing/learn/stock-trading-how-to-begin"
-    },
-    {
-        "strategy_type": "Volume-Based",
-        "direction": null,
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
         "asset_type": "Stocks",
-        "timeframe": "Daily",
-        "id": 20,
-        "source": "linkedin",
-        "url": "https://www.linkedin.com/pulse/how-identify-avoid-traps-trading-understanding-ncmbf"
+        "timeframe": "4-hour",
+        "id": 5,
+        "source": "tradingview",
+        "url": "https://www.tradingview.com/script/JFIZkwZR-RSI-Mean-Reversion/"
+    },
+    {
+        "strategy_type": "Market Neutral",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 6,
+        "source": "funds",
+        "url": "https://funds.aqr.com/Insights/Strategies/Equity-Market-Neutral"
+    },
+    {
+        "strategy_type": "Contrarian",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 7,
+        "source": "bookmap",
+        "url": "https://bookmap.com/blog/going-against-the-crowd-in-trading-contrarian-strategies-for-market-success"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 8,
+        "source": "lseg",
+        "url": "https://www.lseg.com/en/insights/data-analytics/what-do-long-only-funds-look-for-in-a-trading-system"
     },
     {
         "strategy_type": "Momentum",
-        "direction": null,
+        "direction": "Long/Short",
         "asset_type": "Stocks",
-        "timeframe": "Short to mid-term",
-        "id": 22,
-        "source": "moomoo",
-        "url": "https://www.moomoo.com/ca/learn/detail-momentum-stock-trading-strategy-in-bull-markets-116928-240597069"
+        "timeframe": "Intraday",
+        "id": 10,
+        "source": "ig",
+        "url": "https://www.ig.com/en/trading-strategies/5-top-stock-market-index-trading-strategies-230120"
     },
     {
-        "strategy_type": "Momentum Trading",
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 11,
+        "source": "home",
+        "url": "https://www.home.saxo/learn/guides/trading-strategies/what-is-medium-term-trading"
+    },
+    {
+        "strategy_type": "Momentum",
         "direction": "Long",
         "asset_type": "Stocks",
-        "timeframe": "Daily",
-        "id": 26,
-        "source": "music",
-        "url": "https://music.amazon.com/podcasts/cf5790fe-a480-4816-8ff6-5210e8276495/stock-trading-for-beginners"
+        "timeframe": "Intraday",
+        "id": 13,
+        "source": "funds",
+        "url": "https://funds.aqr.com/Insights/Strategies/Understanding-Factor-Investing"
+    },
+    {
+        "strategy_type": "Contrarian",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 14,
+        "source": "en",
+        "url": "https://en.wikipedia.org/wiki/Contrarian_investing"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 15,
+        "source": "cmcmarkets",
+        "url": "https://www.cmcmarkets.com/en-gb/trading-strategy/mean-reversion"
     },
     {
         "strategy_type": "Statistical Arbitrage",
-        "direction": null,
+        "direction": "Long/Short",
         "asset_type": "Stocks",
-        "timeframe": "Long-term",
-        "id": 56,
-        "source": "tradingqna",
-        "url": "https://tradingqna.com/t/how-to-do-pair-trading/252"
+        "timeframe": "Intraday",
+        "id": 16,
+        "source": "blog",
+        "url": "https://blog.quantinsti.com/statistical-arbitrage/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 17,
+        "source": "sofi",
+        "url": "https://www.sofi.com/learn/content/day-trading-strategies/"
+    },
+    {
+        "strategy_type": "Trend Following",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 18,
+        "source": "en",
+        "url": "https://en.wikipedia.org/wiki/Trend_following_trading"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 20,
+        "source": "trendspider",
+        "url": "https://trendspider.com/learning-center/bollinger-bands-a-comprehensive-guide-for-traders-and-investors/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 21,
+        "source": "vaneck",
+        "url": "https://www.vaneck.com/us/en/blogs/thematic-investing/etf-investing-strategy/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 22,
+        "source": "hdfc",
+        "url": "https://www.hdfc.bank.in/blogs/intraday-trading/best-intraday-trading-tips"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 23,
+        "source": "quantifiedstrategies",
+        "url": "https://www.quantifiedstrategies.com/trend-following-trading-strategy/"
     },
     {
         "strategy_type": "Scalping",
-        "direction": "Long",
-        "asset_type": "Forex",
-        "timeframe": "1-5 minutes",
-        "id": 60,
-        "source": "investing",
-        "url": "https://www.investing.co.uk/scalping/strategy"
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 24,
+        "source": "td",
+        "url": "https://www.td.com/ca/en/investing/direct-investing/articles/scalping"
     },
     {
-        "strategy_type": null,
-        "direction": "Long",
-        "asset_type": "Stock",
-        "timeframe": "Short-term",
-        "id": 72,
-        "source": "marawealth",
-        "url": "https://marawealth.samcart.com/courses/course/how-use-multi-timeframe-analysis-supercharge-your-swing-trading/"
+        "strategy_type": "Breakout",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 25,
+        "source": "traderslog",
+        "url": "https://www.traderslog.com/volatility-breakout-systems"
     },
     {
-        "strategy_type": "Volatility Trading",
-        "direction": null,
-        "asset_type": "Stock",
-        "timeframe": "Pre-Earnings",
-        "id": 85,
-        "source": "navixa",
-        "url": "https://navixa.io/blog/pltr-stock-earnings-strategy"
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 26,
+        "source": "td",
+        "url": "https://www.td.com/ca/en/investing/direct-investing/articles/swing-trading"
+    },
+    {
+        "strategy_type": "Breakout",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 28,
+        "source": "ig",
+        "url": "https://www.ig.com/en/trading-strategies/what-is-a-breakout-trading-strategy-and-how-do-you-trade-with-it-230619"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 29,
+        "source": "trendspider",
+        "url": "https://trendspider.com/learning-center/earnings-report-trading-strategies/"
+    },
+    {
+        "strategy_type": "Market Neutral",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 30,
+        "source": "wallstreetprep",
+        "url": "https://www.wallstreetprep.com/knowledge/market-neutral-strategy/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 31,
+        "source": "oanda",
+        "url": "https://www.oanda.com/us-en/skills-and-insights/education/technical-analysis/indicators-and-oscillators/how-to-use-moving-averages/"
+    },
+    {
+        "strategy_type": "Breakout",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 32,
+        "source": "tradersmastermind",
+        "url": "https://tradersmastermind.com/volatility-breakout-trading-strategy/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 33,
+        "source": "fortraders",
+        "url": "https://fortraders.com/blog/seasonal-trading-patterns-fact-or-fiction"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 34,
+        "source": "trade",
+        "url": "https://www.trade.gov/foreign-exchange-risk"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 35,
+        "source": "quantifiedstrategies",
+        "url": "https://www.quantifiedstrategies.com/technical-analysis-strategy/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 36,
+        "source": "finance",
+        "url": "https://finance.yahoo.com/news/simple-trading-strategies-5-rules-113000207.html"
+    },
+    {
+        "strategy_type": "Moving Average Crossover",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 37,
+        "source": "groww",
+        "url": "https://groww.in/p/moving-average-crossover-pattern"
+    },
+    {
+        "strategy_type": "Breakout",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 38,
+        "source": "priceaction",
+        "url": "https://priceaction.com/price-action-university/beginners/price-action-breakout-strategies/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 39,
+        "source": "macrogmsecurities",
+        "url": "https://macrogmsecurities.com.au/long-only-algorithmic-trading-strategies-for-stocks/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 40,
+        "source": "trendspider",
+        "url": "https://trendspider.com/learning-center/vwap-indicator-a-comprehensive-guide-for-traders/"
+    },
+    {
+        "strategy_type": "Medium-Term Trading",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 42,
+        "source": "home",
+        "url": "https://www.home.saxo/en-hk/learn/guides/trading-strategies/what-is-medium-term-trading"
+    },
+    {
+        "strategy_type": "Trend Following",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 46,
+        "source": "best-trading-platforms",
+        "url": "https://www.best-trading-platforms.com/trading-platform-futures-forex-cfd-stocks-nanotrader/atr-channel-breakout-trading-strategy"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 47,
+        "source": "oanda",
+        "url": "https://www.oanda.com/us-en/skills-and-insights/education/technical-analysis/introduction-to-technical-analysis/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 48,
+        "source": "tastylive",
+        "url": "https://www.tastylive.com/concepts-strategies/day-trading-for-beginners"
+    },
+    {
+        "strategy_type": "Seasonality",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Long-term",
+        "id": 49,
+        "source": "trendspider",
+        "url": "https://trendspider.com/learning-center/seasonality-trading-strategies/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Long-term",
+        "id": 50,
+        "source": "blog",
+        "url": "https://blog.quantinsti.com/seasonality-trading/"
     },
     {
         "strategy_type": "Mean Reversion",
         "direction": null,
         "asset_type": "Stocks",
         "timeframe": "Long-term",
-        "id": 90,
-        "source": "venturasecurities",
-        "url": "https://www.venturasecurities.com/blog/what-are-candlestick-patterns/"
+        "id": 52,
+        "source": "capital",
+        "url": "https://capital.com/en-int/learn/technical-analysis/support-and-resistance-trading-strategy"
     },
     {
-        "strategy_type": "NeuroEvolution of Augmenting Topologies (NEAT)",
+        "strategy_type": "Momentum",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 53,
+        "source": "quantifiedstrategies",
+        "url": "https://www.quantifiedstrategies.com/market-neutral-trading-strategies/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 55,
+        "source": "quantifiedstrategies",
+        "url": "https://www.quantifiedstrategies.com/quantitative-trading-strategies/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 56,
+        "source": "priceaction",
+        "url": "https://priceaction.com/price-action-university/strategies/support-resistance-levels/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
         "direction": null,
-        "asset_type": "Stock",
-        "timeframe": "1-day interval",
+        "asset_type": "Stocks",
+        "timeframe": "Long-term",
+        "id": 57,
+        "source": "troopmessenger",
+        "url": "https://www.troopmessenger.com/blogs/stock-trading-strategies-every-new-trader-should-know"
+    },
+    {
+        "strategy_type": "Swing Trading",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 58,
+        "source": "home",
+        "url": "https://www.home.saxo/learn/guides/trading-strategies/what-is-swing-trading"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 59,
+        "source": "tradingsim",
+        "url": "https://www.tradingsim.com/blog/mastering-volume-analysis-top-trading-strategies-for-success"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 60,
+        "source": "optimusfutures",
+        "url": "https://optimusfutures.com/blog/futures-trading-strategies/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 61,
+        "source": "tradingview",
+        "url": "https://www.tradingview.com/chart/GBPUSD/SqUvkiqq-Top-4-Strategies-for-Position-Trading/"
+    },
+    {
+        "strategy_type": "Gap Trading",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 62,
+        "source": "tastylive",
+        "url": "https://www.tastylive.com/concepts-strategies/gap-trading"
+    },
+    {
+        "strategy_type": "Statistical Arbitrage",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 63,
+        "source": "en",
+        "url": "https://en.wikipedia.org/wiki/Statistical_arbitrage"
+    },
+    {
+        "strategy_type": "Trend Following",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 65,
+        "source": "insigniafutures",
+        "url": "https://insigniafutures.com/futures-trading-strategies-explained-examples-rules-and-risk-considerations/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 66,
+        "source": "quantifiedstrategies",
+        "url": "https://www.quantifiedstrategies.com/long-term-trading-strategy/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": null,
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 67,
+        "source": "schwab",
+        "url": "https://www.schwab.com/learn/story/trading-options-around-earnings-announcements"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 68,
+        "source": "eurotrader",
+        "url": "https://www.eurotrader.com/blog/best-index-trading-strategies-in-2025-2026/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 69,
+        "source": "centerpointsecurities",
+        "url": "https://centerpointsecurities.com/trading-company-earnings-reports/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 70,
+        "source": "mql5",
+        "url": "https://www.mql5.com/en/articles/20745"
+    },
+    {
+        "strategy_type": "Pairs Trading",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 71,
+        "source": "daehkim",
+        "url": "https://daehkim.github.io/pair-trading/"
+    },
+    {
+        "strategy_type": "Trend Following",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 72,
+        "source": "ninjatrader",
+        "url": "https://www.ninjatrader.com/futures/blogs/futures-trading-strategies-ranked-difficulty/"
+    },
+    {
+        "strategy_type": "Trend Following",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 74,
+        "source": "trendfollowing",
+        "url": "https://www.trendfollowing.com/trend/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 75,
+        "source": "captrader",
+        "url": "https://www.captrader.com/en/blog/volume-trading/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 77,
+        "source": "simplertrading",
+        "url": "https://www.simplertrading.com/blog/trading-tips-strategies/trade-weekly-options"
+    },
+    {
+        "strategy_type": "Arbitrage",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 78,
+        "source": "interactivebrokers",
+        "url": "https://www.interactivebrokers.com/campus/trading-course/neutral-market-strategies/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Weekly",
+        "id": 79,
+        "source": "tradingview",
+        "url": "https://www.tradingview.com/script/MlEdrEJ1-Weekly-Trading-Strategy/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 80,
+        "source": "schwab",
+        "url": "https://www.schwab.com/learn/story/trading-stocks-with-macd"
+    },
+    {
+        "strategy_type": "Scalping",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 81,
+        "source": "ig",
+        "url": "https://www.ig.com/en/trading-strategies/four-simple-scalping-trading-strategies-190131"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 82,
+        "source": "blog",
+        "url": "https://blog.quantinsti.com/moving-average-trading-strategies/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 84,
+        "source": "sofi",
+        "url": "https://www.sofi.com/learn/content/pros-cons-of-momentum-trading/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 86,
+        "source": "ca",
+        "url": "https://ca.finance.yahoo.com/news/tips-to-take-your-trading-to-the-next-level-140019065.html"
+    },
+    {
+        "strategy_type": "Medium Term Trading",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 88,
+        "source": "fairmontequities",
+        "url": "https://fairmontequities.com/why-medium-term-trading-is-the-best-strategy/"
+    },
+    {
+        "strategy_type": "Breakout",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 91,
+        "source": "axiory",
+        "url": "https://www.axiory.com/trading-resources/strategies/breakout/"
+    },
+    {
+        "strategy_type": "Position Trading",
+        "direction": "Long/Short",
+        "asset_type": "Stocks, ETFs, Crypto, Futures",
+        "timeframe": "Long-term",
+        "id": 92,
+        "source": "capital",
+        "url": "https://capital.com/en-int/learn/trading-strategies/position-trading"
+    },
+    {
+        "strategy_type": "Breakout",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 93,
+        "source": "academy",
+        "url": "https://academy.ftmo.com/lesson/bollinger-bands-technical-indicator/"
+    },
+    {
+        "strategy_type": "Volume Reversals",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 94,
+        "source": "trendspider",
+        "url": "https://trendspider.com/learning-center/what-is-trading-volume/"
+    },
+    {
+        "strategy_type": "Breakout",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 95,
+        "source": "tradingview",
+        "url": "https://www.tradingview.com/support/solutions/43000599828-channel-breakout-strategy/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 96,
+        "source": "kraken",
+        "url": "https://www.kraken.com/learn/futures-trading-strategies"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 97,
+        "source": "trendspider",
+        "url": "https://trendspider.com/learning-center/macd-trading-strategies/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "risk_level": "Moderate",
+        "id": 98,
+        "source": "blackrock",
+        "url": "https://www.blackrock.com/us/individual/investment-ideas/what-is-factor-investing"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
         "id": 99,
-        "source": "arxiv",
-        "url": "https://arxiv.org/html/2501.14736v1"
+        "source": "marketmates",
+        "url": "https://marketmates.com/learn/cfd-trading/top-9-strategies-beginner-traders-need-to-know/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 100,
+        "source": "home",
+        "url": "https://www.home.saxo/learn/guides/trading-strategies/how-to-start-long-term-investing"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 101,
+        "source": "equityclock",
+        "url": "https://equityclock.com/seasonality/seasonal-investing/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 102,
+        "source": "tastylive",
+        "url": "https://www.tastylive.com/concepts-strategies/momentum-trading"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 103,
+        "source": "pepperstone",
+        "url": "https://pepperstone.com/en/learn-to-trade/trading-guides/guide-to-reversal-trading/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 106,
+        "source": "bookmap",
+        "url": "https://bookmap.com/blog/day-trading-futures-strategies-risks-and-rewards-explained"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Forex",
+        "timeframe": "Intraday",
+        "id": 110,
+        "source": "newyorkcityservers",
+        "url": "https://newyorkcityservers.com/blog/mean-reversion-trading-forex"
+    },
+    {
+        "strategy_type": "Breakout",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 111,
+        "source": "optimusfutures",
+        "url": "https://optimusfutures.com/blog/support-and-resistance-trading-guide/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 112,
+        "source": "tradingsim",
+        "url": "https://www.tradingsim.com/blog/price-action-trading-strategies"
+    },
+    {
+        "strategy_type": "Breakout",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 113,
+        "source": "findoc",
+        "url": "https://www.findoc.com/learn/stock-trading/breakout-strategy"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 114,
+        "source": "en",
+        "url": "https://en.wikipedia.org/wiki/Short-term_trading"
+    },
+    {
+        "strategy_type": "Trend Following",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 115,
+        "source": "sarwa",
+        "url": "https://www.sarwa.co/blog/successful-day-trading-strategies/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 116,
+        "source": "ig",
+        "url": "https://www.ig.com/en/trading-strategies/moving-averages--how-to-calculate-them-and-use-them-in-your-trad-181008"
+    },
+    {
+        "strategy_type": "Pairs Trading",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 117,
+        "source": "blog",
+        "url": "https://blog.quantinsti.com/pairs-trading-basics/"
+    },
+    {
+        "strategy_type": "Short Selling",
+        "direction": "Short",
+        "asset_type": "Stocks",
+        "timeframe": "Long-term",
+        "id": 118,
+        "source": "schwab",
+        "url": "https://www.schwab.com/learn/story/ins-and-outs-short-selling"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 119,
+        "source": "interactivebrokers",
+        "url": "https://www.interactivebrokers.com/campus/ibkr-quant-news/mean-reversion-strategies-introduction-trading-strategies-and-more-part-i/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 120,
+        "source": "schwab",
+        "url": "https://www.schwab.com/learn/story/bollinger-bands-what-they-are-and-how-to-use-them"
+    },
+    {
+        "strategy_type": "Pairs Trading",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 121,
+        "source": "kaggle",
+        "url": "https://www.kaggle.com/code/sathyanarayanrao89/statistical-arbitrage-a-pairs-trading-strategy"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 122,
+        "source": "optimusfutures",
+        "url": "https://optimusfutures.com/blog/price-action-trading-guide/"
+    },
+    {
+        "strategy_type": "Statistical Arbitrage",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 123,
+        "source": "cqf",
+        "url": "https://www.cqf.com/blog/quant-finance-101/what-is-statistical-arbitrage"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 124,
+        "source": "bollingerbands",
+        "url": "https://www.bollingerbands.com/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 125,
+        "source": "5paisa",
+        "url": "https://www.5paisa.com/blog/five-short-selling-strategies-for-traders"
+    },
+    {
+        "strategy_type": "Scalping",
+        "direction": "Long/Short",
+        "asset_type": "Forex",
+        "timeframe": "Intraday",
+        "id": 126,
+        "source": "ig",
+        "url": "https://www.ig.com/en/trading-strategies/short-term-trading-strategies-for-beginners-191217"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 127,
+        "source": "ibm",
+        "url": "https://www.ibm.com/think/topics/algorithmic-bias"
+    },
+    {
+        "strategy_type": "Gap Trading",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 128,
+        "source": "chartschool",
+        "url": "https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/gap-trading-strategies"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 129,
+        "source": "quantt",
+        "url": "https://www.quantt.co.uk/resources/quant-trading-strategies-guide"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 130,
+        "source": "tradingsim",
+        "url": "https://www.tradingsim.com/blog/relative-strength-index-rsi"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long",
+        "asset_type": "ETFs",
+        "timeframe": "Short-term",
+        "id": 131,
+        "source": "home",
+        "url": "https://www.home.saxo/learn/guides/etfs/etf-strategies-for-beginners"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 132,
+        "source": "learntotradethemarket",
+        "url": "https://www.learntotradethemarket.com/price-action-trading-forex"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 133,
+        "source": "chase",
+        "url": "https://www.chase.com/personal/investments/learning-and-insights/article/factor-investing-explained"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 135,
+        "source": "seasonality",
+        "url": "https://www.seasonality.ai/Seasonal-Trading-How-to-Profit-from-Recurring-Market-Trends"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Forex",
+        "timeframe": "Intraday",
+        "id": 136,
+        "source": "ig",
+        "url": "https://www.ig.com/en/forex/fx-need-to-knows/forex-day-trading-strategies"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 137,
+        "source": "scribd",
+        "url": "https://www.scribd.com/document/313251863/4-Simple-Volume-Trading-Strategies"
+    },
+    {
+        "strategy_type": "Long/Short Equity",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Long-term",
+        "id": 138,
+        "source": "en",
+        "url": "https://en.wikipedia.org/wiki/Long/short_equity"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Long-term",
+        "id": 139,
+        "source": "ig",
+        "url": "https://www.ig.com/en/trading-strategies/best-position-trading-strategies-200717"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 140,
+        "source": "tradetaurex",
+        "url": "https://www.tradetaurex.com/forex-insights/vwap-trading-strategies/"
+    },
+    {
+        "strategy_type": "Price Action",
+        "direction": "Long/Short",
+        "asset_type": "Forex",
+        "timeframe": "Intraday",
+        "id": 141,
+        "source": "axi",
+        "url": "https://www.axi.com/int/blog/education/forex/forex-trading-strategies"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 142,
+        "source": "en",
+        "url": "https://en.wikipedia.org/wiki/Moving_average_crossover"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 143,
+        "source": "quantifiedstrategies",
+        "url": "https://www.quantifiedstrategies.com/pair-trading-strategy/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 144,
+        "source": "quantt",
+        "url": "https://www.quantt.co.uk/resources/statistical-arbitrage-strategies"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Short-term",
+        "id": 145,
+        "source": "tastylive",
+        "url": "https://www.tastylive.com/concepts-strategies/how-to-trade-earnings-with-options"
+    },
+    {
+        "strategy_type": "Breakout",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 146,
+        "source": "stockgro",
+        "url": "https://www.stockgro.club/blogs/trading/channel-breakout-strategy/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 147,
+        "source": "daytrading",
+        "url": "https://www.daytrading.com/medium-term-trading"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 148,
+        "source": "interactivebrokers",
+        "url": "https://www.interactivebrokers.com/campus/ibkr-quant-news/what-is-quantitative-trading-and-how-do-i-learn-it/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 149,
+        "source": "quantra",
+        "url": "https://quantra.quantinsti.com/glossary/How-to-Create-a-Robust-Trend-Following-Strategy"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 150,
+        "source": "priceaction",
+        "url": "https://priceaction.com/price-action-university/strategies/"
+    },
+    {
+        "strategy_type": "Price Action",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Daily",
+        "id": 151,
+        "source": "priceaction",
+        "url": "https://priceaction.com/blog/articles/simplest-trading-strategy-in-the-world/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Long-term",
+        "id": 152,
+        "source": "usbank",
+        "url": "https://www.usbank.com/investing/financial-perspectives/investing-insights/buy-and-hold-long-term-investment-strategies.html"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 153,
+        "source": "bullsonwallstreet",
+        "url": "https://www.bullsonwallstreet.com/post/what-is-the-vwap-trading-indicator-and-how-to-use-it-as-a-day-trader"
+    },
+    {
+        "strategy_type": "Breakout",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 154,
+        "source": "whselfinvest",
+        "url": "https://www.whselfinvest.com/en-lu/trading-platform/free-trading-strategies/tradingsystem/56-volatility-break-out-larry-williams-free"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 155,
+        "source": "trendspider",
+        "url": "https://trendspider.com/learning-center/moving-average-crossover-strategies/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 156,
+        "source": "zforex",
+        "url": "https://zforex.com/blog/general-trading/what-is-range-trading/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Forex",
+        "timeframe": "Intraday",
+        "id": 157,
+        "source": "schwab",
+        "url": "https://www.schwab.com/learn/story/foreign-exchange-forex-trading-beginners"
+    },
+    {
+        "strategy_type": "Pairs Trading",
+        "direction": "Market Neutral",
+        "asset_type": "Stocks",
+        "timeframe": "Long-term",
+        "id": 158,
+        "source": "en",
+        "url": "https://en.wikipedia.org/wiki/Pairs_trade"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Long-term",
+        "id": 159,
+        "source": "finance",
+        "url": "https://finance.yahoo.com/research-hub/screener/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 160,
+        "source": "en",
+        "url": "https://en.wikipedia.org/wiki/Factor_investing"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 161,
+        "source": "luxalgo",
+        "url": "https://www.luxalgo.com/blog/relative-strength-vs-momentum-indicators-pros-and-cons/"
+    },
+    {
+        "strategy_type": "Arbitrage",
+        "direction": null,
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 162,
+        "source": "en",
+        "url": "https://en.wikipedia.org/wiki/Algorithmic"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 163,
+        "source": "en",
+        "url": "https://en.wikipedia.org/wiki/Mean_reversion_(finance)"
+    },
+    {
+        "strategy_type": "Range Trading",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 164,
+        "source": "vectorvest",
+        "url": "https://www.vectorvest.com/blog/swing-trading/range-trading-strategy/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long",
+        "asset_type": "ETFs",
+        "timeframe": "Intraday",
+        "id": 165,
+        "source": "am",
+        "url": "https://am.jpmorgan.com/fr/en/asset-management/institutional/insights/portfolio-insights/etf-perspectives/etf-trading-tips-and-strategies/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Daily",
+        "id": 166,
+        "source": "priceaction",
+        "url": "https://priceaction.com/price-action-university/beginners/price-action-reversal-strategies/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 167,
+        "source": "investor",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/stock-purchases-and-sales-long-and"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 169,
+        "source": "ssga",
+        "url": "https://www.ssga.com/au/en_gb/intermediary/insights/education/factor-based-investing"
+    },
+    {
+        "strategy_type": "Breakout",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 170,
+        "source": "axi",
+        "url": "https://www.axi.com/int/blog/education/breakout-trading-strategy"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 171,
+        "source": "blog",
+        "url": "https://blog.elearnmarkets.com/5-trading-strategies-using-macd/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 172,
+        "source": "finance",
+        "url": "https://finance.yahoo.com/news/6-day-trading-strategies-them-184013259.html"
+    },
+    {
+        "strategy_type": "Equity-market-neutral",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 173,
+        "source": "en",
+        "url": "https://en.wikipedia.org/wiki/Market_neutral"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 174,
+        "source": "luxalgo",
+        "url": "https://www.luxalgo.com/blog/vwap-entry-strategies-for-day-traders/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 175,
+        "source": "blog",
+        "url": "https://blog.quantinsti.com/mean-reversion-strategies-introduction-building-blocks/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 176,
+        "source": "dictionary",
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/algorithmic"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 177,
+        "source": "tradingview",
+        "url": "https://www.tradingview.com/chart/GBPUSD/B7c09Qug-Mastering-MACD-Complete-Guide-10-ways-to-trade-it/"
+    },
+    {
+        "strategy_type": "Breakout",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 178,
+        "source": "litefinance",
+        "url": "https://www.litefinance.org/blog/for-beginners/trading-strategies/breakout-trading-strategies-for-beginners/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Long-term",
+        "id": 179,
+        "source": "ca",
+        "url": "https://ca.finance.yahoo.com/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 180,
+        "source": "dhan",
+        "url": "https://dhan.co/blog/trading-strategies/volume-based-trading-strategy/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 181,
+        "source": "interactivebrokers",
+        "url": "https://www.interactivebrokers.com/campus/traders-insight/securities/technical-analysis/how-do-i-find-a-good-seasonal-trading-pattern/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 182,
+        "source": "schwab",
+        "url": "https://www.schwab.com/learn/story/understanding-simple-moving-average-crossovers"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 183,
+        "source": "quantstart",
+        "url": "https://www.quantstart.com/articles/Beginners-Guide-to-Quantitative-Trading/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 184,
+        "source": "trendspider",
+        "url": "https://trendspider.com/learning-center/technical-analysis-strategies/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 185,
+        "source": "sharekhan",
+        "url": "https://www.sharekhan.com/financial-blog/blogs/successful-intraday-trading-strategies"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 186,
+        "source": "blog",
+        "url": "https://blog.quantinsti.com/bollinger-bands/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 187,
+        "source": "ebsco",
+        "url": "https://www.ebsco.com/research-starters/business-and-management/reversal"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Daily",
+        "id": 188,
+        "source": "tradinformed",
+        "url": "https://www.tradinformed.com/a-simple-rsi-mean-reversion-strategy/"
+    },
+    {
+        "strategy_type": "Breakout",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 189,
+        "source": "tradethatswing",
+        "url": "https://tradethatswing.com/the-breakout-and-run-day-trading-strategy/?srsltid\\u003dAfmBOoomsVtuO6klrt5UZwk0p4IEmp4Oe54DJcr0LptXuCLpKKZ_x5LS"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 190,
+        "source": "capital",
+        "url": "https://capital.com/en-int/learn/trading-strategies/breakout-trading"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 191,
+        "source": "tradingsim",
+        "url": "https://www.tradingsim.com/blog/swing-trading-strategies"
+    },
+    {
+        "strategy_type": "Short Selling",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 193,
+        "source": "home",
+        "url": "https://www.home.saxo/learn/guides/trading-strategies/how-to-short-stocks-the-right-way"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 194,
+        "source": "scribd",
+        "url": "https://www.scribd.com/document/238177650/LBR-on-Volatility-Breakout-docx"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 195,
+        "source": "interactivebrokers",
+        "url": "https://www.interactivebrokers.com/campus/ibkr-quant-news/momentum-trading-types-strategies-and-more-part-i/"
+    },
+    {
+        "strategy_type": "Swing Trading",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Days",
+        "id": 196,
+        "source": "schwab",
+        "url": "https://www.schwab.com/learn/story/swing-trading-strategies"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Futures",
+        "timeframe": "Medium-term",
+        "id": 197,
+        "source": "schwab",
+        "url": "https://www.schwab.com/learn/story/7-tips-every-futures-trader-should-know"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": null,
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 198,
+        "source": "redbridgedta",
+        "url": "https://www.redbridgedta.com/market-intelligence/fx-solutions-strategies-to-overcome-foreign-exchange-challenges-and-boost-merchant-revenue/"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 199,
+        "source": "captrader",
+        "url": "https://www.captrader.com/en/blog/day-trading-strategies/"
+    },
+    {
+        "strategy_type": "Long-Short Equity",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Long-term",
+        "id": 200,
+        "source": "funds",
+        "url": "https://funds.aqr.com/Insights/Strategies/Long-Short-Equity"
+    },
+    {
+        "strategy_type": "Breakout",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 201,
+        "source": "groww",
+        "url": "https://groww.in/blog/breakout-strategy"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 202,
+        "source": "tradingwithrayner",
+        "url": "https://www.tradingwithrayner.com/course/moving-average-trading-secrets/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 203,
+        "source": "axiory",
+        "url": "https://www.axiory.com/trading-resources/strategies/mean-reversion-vs-trend-following/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 204,
+        "source": "luxalgo",
+        "url": "https://www.luxalgo.com/blog/mean-reversion-strategies-for-algorithmic-trading/"
+    },
+    {
+        "strategy_type": "Gap Fill",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 205,
+        "source": "trendspider",
+        "url": "https://trendspider.com/learning-center/gap-fill-trading-strategies/"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 206,
+        "source": "bettermoneyhabits",
+        "url": "https://bettermoneyhabits.bankofamerica.com/en/retirement/long-term-vs-short-term-investment"
+    },
+    {
+        "strategy_type": "Scalping",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 207,
+        "source": "groww",
+        "url": "https://groww.in/p/scalping-strategy"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 208,
+        "source": "trendspider",
+        "url": "https://trendspider.com/learning-center/mean-reversion-trading-strategies/"
+    },
+    {
+        "strategy_type": "Spot Contract",
+        "direction": "Long/Short",
+        "asset_type": "Forex",
+        "timeframe": "Intraday",
+        "id": 209,
+        "source": "cathaybank",
+        "url": "https://www.cathaybank.com/about-us/insights-by-cathay/foreign-exchange-risk-management-strategy"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 211,
+        "source": "nyif",
+        "url": "https://www.nyif.com/fundamentals-of-technical-analysis"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 212,
+        "source": "finance",
+        "url": "https://finance.yahoo.com/news/guide-stock-trading-strategies-153119835.html"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 213,
+        "source": "bookmap",
+        "url": "https://bookmap.com/blog/the-art-of-short-selling-strategies-and-risks-in-a-bear-market"
+    },
+    {
+        "strategy_type": "Trend Following",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 214,
+        "source": "cmcmarkets",
+        "url": "https://www.cmcmarkets.com/en-gb/trading-strategy/trend-trading"
+    },
+    {
+        "strategy_type": "Position Trading",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 215,
+        "source": "newtrading",
+        "url": "https://www.newtrading.io/position-trading/"
+    },
+    {
+        "strategy_type": "Market Neutral",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 216,
+        "source": "blackrock",
+        "url": "https://www.blackrock.com/us/financial-professionals/insights/market-neutral-investing"
+    },
+    {
+        "strategy_type": "Long/Short Equity",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 217,
+        "source": "caisgroup",
+        "url": "https://www.caisgroup.com/articles/an-introduction-to-long-short-equity-strategies"
+    },
+    {
+        "strategy_type": "Mean Reversion",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Medium-term",
+        "id": 218,
+        "source": "schwab",
+        "url": "https://www.schwab.com/learn/story/how-to-trade-simple-moving-averages"
+    },
+    {
+        "strategy_type": "Momentum",
+        "direction": "Long/Short",
+        "asset_type": "Stocks",
+        "timeframe": "Intraday",
+        "id": 219,
+        "source": "schwab",
+        "url": "https://www.schwab.com/learn/story/trading-volume-as-market-indicator"
+    },
+    {
+        "strategy_type": "Scalping",
+        "direction": "Long/Short",
+        "asset_type": "Forex",
+        "timeframe": "Intraday",
+        "id": 220,
+        "source": "cmcmarkets",
+        "url": "https://www.cmcmarkets.com/en-gb/trading-strategy/short-term-trading"
     }
 ]
